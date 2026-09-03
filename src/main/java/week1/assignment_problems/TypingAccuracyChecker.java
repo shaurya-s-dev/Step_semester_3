@@ -23,7 +23,7 @@ public class TypingAccuracyChecker {
     }
 
     public static void main(String[] args) {
-        checkTypingAccuracy("hello world", "hello world");  // (original and typed differ intentionally)
+        checkTypingAccuracy("hello world", "hello wurld");  // (original and typed differ intentionally)
         checkTypingAccuracy("coding", "coding");
     }
 }

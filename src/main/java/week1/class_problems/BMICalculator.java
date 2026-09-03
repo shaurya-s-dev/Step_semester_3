@@ -10,9 +10,15 @@ public class BMICalculator {
         else return "Obese";
     }
 
-    public static void printWellnessReport(double[] heights, double[] weights) {
+public static void printWellnessReport(double[] heights, double[] weights) {
+        if (heights.length != weights.length) {
+            throw new IllegalArgumentException("heights and weights must have the same length");
+        }
         System.out.printf("%-10s %-12s %-12s %-10s %s\n", "Person", "Height(m)", "Weight(kg)", "BMI", "Status");
         for (int i = 0; i < heights.length; i++) {
+            if (heights[i] <= 0) {
+                throw new IllegalArgumentException("height must be > 0 (index " + i + ")");
+            }
             double bmi = weights[i] / (heights[i] * heights[i]);
             System.out.printf("Person %-4d %-12.2f %-12.2f %-10.2f %s\n",
                                i+1, heights[i], weights[i], bmi, getBMIStatus(bmi));

@@ -1,7 +1,15 @@
 package week1.assignment_problems;
 
 public class WarehouseInventoryBalancer {
-    public static void analyzeInventory(int[] sectionA, int[] sectionB) {
+public static void analyzeInventory(int[] sectionA, int[] sectionB) {
+        if (sectionA.length != sectionB.length) {
+            throw new IllegalArgumentException("sectionA and sectionB must have the same length");
+        }
+        if (sectionA.length == 0) {
+            System.out.println("No inventory data");
+            return;
+        }
+
         int totalA = 0, totalB = 0;
         int maxVal = Integer.MIN_VALUE;
         String maxLocation = "";

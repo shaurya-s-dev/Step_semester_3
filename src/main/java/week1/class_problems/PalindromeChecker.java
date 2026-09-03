@@ -10,10 +10,14 @@ public class PalindromeChecker {
         return true;
     }
 
-    public static boolean isPalindromeRecursive(String text) {
-        if (text.length() <= 1) return true;
-        if (text.charAt(0) != text.charAt(text.length() - 1)) return false;
-        return isPalindromeRecursive(text.substring(1, text.length() - 1));
+public static boolean isPalindromeRecursive(String text) {
+        return isPalindromeRecursive(text, 0, text.length() - 1);
+    }
+
+    private static boolean isPalindromeRecursive(String text, int left, int right) {
+        if (left >= right) return true;
+        if (text.charAt(left) != text.charAt(right)) return false;
+        return isPalindromeRecursive(text, left + 1, right - 1);
     }
 
     public static boolean isPalindromeArrayReversal(String text) {

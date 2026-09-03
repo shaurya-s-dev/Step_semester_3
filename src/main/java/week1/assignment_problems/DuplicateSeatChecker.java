@@ -1,18 +1,17 @@
 package week1.assignment_problems;
 
 public class DuplicateSeatChecker {
-    public static void checkDuplicateSeats(int[] seatNumbers) {
-        boolean foundDuplicate = false;
-        for (int i = 0; i < seatNumbers.length; i++) {
-            for (int j = i + 1; j < seatNumbers.length; j++) {
-                if (seatNumbers[i] == seatNumbers[j]) {
-                    System.out.println("Duplicate Seat Number Found: " + seatNumbers[i]);
-                    foundDuplicate = true;
-                    break;
-                }
+public static void checkDuplicateSeats(int[] seatNumbers) {
+        java.util.Set<Integer> seen = new java.util.HashSet<>();
+        java.util.Set<Integer> duplicates = new java.util.HashSet<>();
+
+        for (int seat : seatNumbers) {
+            if (!seen.add(seat) && duplicates.add(seat)) {
+                System.out.println("Duplicate Seat Number Found: " + seat);
             }
         }
-        if (!foundDuplicate) {
+
+        if (duplicates.isEmpty()) {
             System.out.println("No Duplicate Seats Found");
         }
     }

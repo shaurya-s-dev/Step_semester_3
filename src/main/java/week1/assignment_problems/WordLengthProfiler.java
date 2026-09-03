@@ -1,8 +1,13 @@
 package week1.assignment_problems;
 
 public class WordLengthProfiler {
-    public static void classifyWordLengths(String review) {
-        String[] words = review.split(" ");
+public static void classifyWordLengths(String review) {
+        review = review.trim();
+        if (review.isEmpty()) {
+            System.out.println("Short: 0 | Medium: 0 | Long: 0");
+            return;
+        }
+        String[] words = review.split("\\s+");
         int shortCount = 0, mediumCount = 0, longCount = 0;
         for (String w : words) {
             int len = w.length();

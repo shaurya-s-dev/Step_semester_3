@@ -6,7 +6,7 @@ Only this file lives on the `main` branch — all code is on `develop` and `feat
 ## Date: 10-09-2026
 
 **Today's Work:**  
-- Completed **Session 6** (Week 6 — Access Modifiers, Encapsulation & Object Modeling):
+- Completed **Session 5** (Week 6 — Access Modifiers, Encapsulation & Object Modeling):
   - Practice problems (Mentor Practice Set): Field Visibility & Intake Validator (`AccessRuleEngine`, `PatientRecord`), Cross-Package Inheritance Reach (`classifyAccess`, `describeContext`), Vitals Monitoring Encapsulation Guard (`PatientVitals`), PatientProfile JavaBean & Locker PIN (`PatientProfile`), Immutable Discharge Summary & Nightly Ledger (`DischargeSummary`, `CriticalCareDischargeSummary`, `processNightlyBatch`).
   - Assignment problems (Category A): Membership Field Reach Checker (`AccessChecker`, `LibraryMember`), Reference Desk Subclass Reach (`describeContext`), Book Copy Circulation Guard (`BookInventory`), LibraryMember JavaBean & Write-Once/Write-Only (`LibraryMember`), Immutable Loan Receipt & Nightly Circulation Ledger (`LoanReceipt`, `ReferenceOnlyLoanReceipt`, `processNightlyCirculation`).
 

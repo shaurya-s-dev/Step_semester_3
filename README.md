@@ -3,6 +3,21 @@
 This README serves as a running log of all work completed during Semester 3.  
 Only this file lives on the `main` branch — all code is on `develop` and `feature/*` branches.
 
+## Date: 12-09-2026
+
+**Today's Work:**  
+- Completed **Session 6** (Week 6 — Inheritance, Polymorphism & Dynamic Dispatch):
+  - Practice problems (Category A - CineHub Ticket System): Ticket Hierarchy Foundation & Batch Registration Validator (`EventTicket`, `WorkshopTicket`), Three Shapes of One Family Tree (`PremiumWorkshopTicket`, `HackathonTicket`), Late-Registration Penalty Override & Audit Trail (`applyLateFee`, `getLateFeeHistory`), Nightly Ticket Announcer (`batchPrint`), Fest-Wide Ticket Issuance, Promo Codes & Nightly Settlement Engine (`isValidPromoCode`, `processNightlySettlement`).
+  - Assignment problems (Category A Homework - Riverside Marathon System): Race Entry Foundation & Batch Bib Validator (`RaceEntry`, `RunnerEntry`), Three Shapes of One Race Family (`EliteRunnerEntry`, `RelayTeamEntry`), Late-Withdrawal Penalty Override & Audit Trail (`applyLateFee`, `getLateFeeHistory`), Race-Day Announcer Board (`announceAll`), Race-Wide Bib Issuance, Discount Codes & Nightly Settlement Engine (`isValidDiscountCode`, `settleNight`).
+
+**Next Session Plan:**  
+- Continue with Week 7 coursework topics.
+
+**Issues Faced:**  
+- None.
+
+- - -
+
 ## Date: 10-09-2026
 
 **Today's Work:**  

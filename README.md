@@ -3,6 +3,21 @@
 This README serves as a running log of all work completed during Semester 3.  
 Only this file lives on the `main` branch — all code is on `develop` and `feature/*` branches.
 
+## Date: 20-09-2026
+
+**Today's Work:**  
+- Completed **Session 7** (Week 7 — Abstract Classes, Interfaces & Polymorphism):
+  - Practice problems (Category A Practice Problems): Checkout Payment Handler (`PaymentMethod`, `CreditCardPayment`, `CashPayment`), Home Safety Alert Network (`Alertable`, `SecuritySensor`, `MotionSensor`, `DualZoneMotionSensor`, `SmokeDetector`), Quarterly Bonus Calculator (`StaffMember`, `Auditable`, `TeamLead`), Universal Media Launcher (`Playable`, `MediaFile`, `AudioFile`, `Podcast`), Community Library Checkout System (`LibraryItem`, `Renewable`, `Reservable`, `Textbook`, `Magazine`, `DigitalPass`).
+  - Assignment problems (Category A Assignment): Basic Drawing Canvas (`Shape`, `CircleShape`, `SquareShape`), One-Click Data Export (`Exportable`, `ReportGenerator`, `UserProfile`, `DataExportManager`), Fleet Maintenance Tracker (`ServiceableVehicle`, `Insurable`, `Forklift`, `HeavyDutyForklift`), Arena Battle Simulator (`Attackable`, `Defendable`, `GameCharacter`, `Warrior`, `Trap`), Connected Home Control Panel (`HomeDevice`, `RemoteControllable`, `EnergyTrackable`, `WashingMachine`, `Refrigerator`, `MobileApp`).
+
+**Next Session Plan:**  
+- Continue with Week 8 coursework topics.
+
+**Issues Faced:**  
+- None.
+
+- - -
+
 ## Date: 12-09-2026
 
 **Today's Work:**  

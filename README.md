@@ -3,6 +3,21 @@
 This README serves as a running log of all work completed during Semester 3.  
 Only this file lives on the `main` branch — all code is on `develop` and `feature/*` branches.
 
+## Date: 28-09-2026
+
+**Today's Work:**  
+- Completed **Session 8** (Object-Oriented Design & Domain Modeling):
+  - Practice problems: Online Examination System, Vehicle Rental System, Hotel Booking System, Leave Request Management, Food Order System.
+  - Assignment problems: Hackathon Judging Desk, SwiftShip Parcel Tracker, Smart Lab Control Panel, Elective Seat Rush, Campus Canteen Smart Card.
+
+**Next Session Plan:**  
+- Continue with Week 9 coursework topics.
+
+**Issues Faced:**  
+- None.
+
+- - -
+
 ## Date: 20-09-2026
 
 **Today's Work:**  

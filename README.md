@@ -3,6 +3,22 @@
 This README serves as a running log of all work completed during Semester 3.  
 Only this file lives on the `main` branch — all code is on `develop` and `feature/*` branches.
 
+## Date: 04-10-2026
+
+**Today's Work:**  
+- Completed **Session 9** (Data Structures: Arrays, Hashing, Two Pointers, Prefix Sums, Binary Search):
+  - Class problems (Category A): Mall Footfall Range Report, Longest Budget-Friendly Streak, Net-Balance Period Counter, Exam Score Band Counter, Spiral Stock Audit Route.
+  - Assignment problems (Part A): Pair Sum in a Sorted Array, Warehouse Bin Grid Scan, Library Catalog Lookup, Maximum Sum Subarray of Fixed Size K.
+  - Completed Part B (Quiz) and Part C (Concept Questions) on Data Structures.
+
+**Next Session Plan:**  
+- Continue with Week 10 coursework topics.
+
+**Issues Faced:**  
+- None.
+
+- - -
+
 ## Date: 28-09-2026
 
 **Today's Work:**  

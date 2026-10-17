@@ -6,13 +6,21 @@ Only this file lives on the `main` branch — all code is on `develop` and `feat
 ## Date: 17-10-2026
 
 **Today's Work:**  
-- Completed **Session 10** (Linked Lists — Singly & Doubly Linked Lists, Two-Pointer Technique, In-Place Relinking):
-  - Problem 2: Merging Two Ticket Counters (`mergeSorted` with in-place relinking, $O(m+n)$ time, $O(1)$ auxiliary space).
-  - Problem 5: Cancelling the k-th Last Order (`removeKthFromEnd` single pass with lead/trail pointers and dummy node head removal).
-  - Problem 6: Campus Portal Browser History (`BrowserHistory` doubly linked list with `visit`, `back`, `forward`, and automatic forward history disposal).
-  - Problem 9: Polynomial Calculator (`addPolynomials` with decreasing exponent merging and standard algebraic polynomial form printing).
-  - Problem 10: The Palindrome Train Code (`isPalindrome` using slow/fast middle detection, second-half reversal, comparison, and exact list restoration in $O(1)$ space).
-  - Detailed time/space complexity analysis and conceptual comparisons with array representations.
+- Completed **Session 10** (Linked Lists & Data Structures / System Modeling):
+  - Class Problems (BridgeLabz Category A):
+    - Problem 1: Smart Home Platform (`SmartHomePlatform` managing polymorphic devices with capabilities `Dimmable`, `Schedulable`, `EnergyMonitorable`).
+    - Problem 2: Customer Registry (`CustomerRegistry` with `equals()` and `hashCode()` contract for exact deduplication in hash collections).
+    - Problem 3: Student Marks Grid (`StudentMarksGrid` computing totals per student and subject toppers with missing-mark tolerance).
+    - Problem 4: Product Price Finder (`ProductPriceFinder` utilizing binary search lower and upper bounds to count products in price ranges).
+    - Problem 5: Library Platform (`LibraryPlatform` with sorted array storage, binary search lookup, and capability validation for `Reservable` and `Downloadable`).
+    - Completed Part B (Quiz Q1–Q10) and Part C (Concept Questions Q1–Q5).
+  - Assignment Problems (Linked List Coding Assignment):
+    - Problem 2: Merging Two Ticket Counters (`mergeSorted` with in-place relinking, $O(m+n)$ time, $O(1)$ auxiliary space).
+    - Problem 5: Cancelling the k-th Last Order (`removeKthFromEnd` single pass with lead/trail pointers and dummy node head removal).
+    - Problem 6: Campus Portal Browser History (`BrowserHistory` doubly linked list with `visit`, `back`, `forward`, and automatic forward history disposal).
+    - Problem 9: Polynomial Calculator (`addPolynomials` with decreasing exponent merging and standard algebraic polynomial form printing).
+    - Problem 10: The Palindrome Train Code (`isPalindrome` using slow/fast middle detection, second-half reversal, comparison, and exact list restoration in $O(1)$ space).
+    - Comprehensive time/space complexity analysis and conceptual comparisons (`COMPLEXITY_ANALYSIS.md`).
 
 **Next Session Plan:**  
 - Continue with Week 11 coursework topics.

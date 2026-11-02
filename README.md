@@ -3,6 +3,31 @@
 This README serves as a running log of all work completed during Semester 3.  
 Only this file lives on the `main` branch — all code is on `develop` and `feature/*` branches.
 
+## Date: 02-11-2026
+
+**Today's Work:**  
+- Completed **Session 11** (Linked List Advanced Operations & Stacks/Queues):
+  - Class Problems (BridgeLabz Category A — Linked List):
+    - Problem 1: Remove the N-th Node From the End of a Linked List (RemoveNthFromEnd in single pass with two pointers and dummy head).
+    - Problem 2: Check if a Linked List is a Palindrome (PalindromeLinkedList in (n)$ time and (1)$ space using midpoint detection & second-half reversal).
+    - Problem 3: Add Two Numbers Represented by Linked Lists (AddTwoNumbers with carry handling).
+    - Problem 4: Find Intersection Node of Two Linked Lists (IntersectionOfLinkedLists in (1)$ space via length alignment).
+    - Problem 5: Reorder Linked List Alternately from Ends (ReorderList combining fast/slow pointers, in-place reversal, and alternating merge).
+    - Completed Part B (Quiz Q1–Q10) and Part C (Concept Questions Q1–Q10).
+  - Assignment Problems (CodInClub — Stacks & Queues):
+    - Problem 1: The Canteen Price Streak (CanteenPriceStreak running in (n)$ via monotonic decreasing stack).
+    - Problem 2: The Hackathon Banner Printer (HackathonBannerPrinter iterative bracket decoder simulating nested repeats with stacks).
+    - Problem 3: The Quiz Scoring Formula (QuizScoringFormula infix arithmetic evaluator with operand & operator stacks).
+    - Problem 4: The Bus Bay Ring (BusBay circular deque ring buffer backed by fixed array with (1)$ front/rear operations).
+
+**Next Session Plan:**  
+- Continue with Week 12 coursework topics.
+
+**Issues Faced:**  
+- None.
+
+- - -
+
 ## Date: 17-10-2026
 
 **Today's Work:**  

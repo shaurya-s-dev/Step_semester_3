@@ -19,6 +19,7 @@ Only this file lives on the `main` branch — all code is on `develop` and `feat
     - Problem 2: The Hackathon Banner Printer (HackathonBannerPrinter iterative bracket decoder simulating nested repeats with stacks).
     - Problem 3: The Quiz Scoring Formula (QuizScoringFormula infix arithmetic evaluator with operand & operator stacks).
     - Problem 4: The Bus Bay Ring (BusBay circular deque ring buffer backed by fixed array with (1)$ front/rear operations).
+    - Problem 5: The Fire Drill Exits (FireDrillExits multi-source BFS grid search starting from all exits).
 
 **Next Session Plan:**  
 - Continue with Week 12 coursework topics.

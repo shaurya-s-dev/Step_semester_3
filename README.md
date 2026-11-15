@@ -3,6 +3,31 @@
 This README serves as a running log of all work completed during Semester 3.  
 Only this file lives on the `main` branch — all code is on `develop` and `feature/*` branches.
 
+## Date: 15-11-2026
+
+**Today's Work:**  
+- Completed **Session 12** (OOP Concepts & Linked List Advanced Algorithms):
+  - Practice Problems (Category A):
+    - Problem 1: Order Walkthrough with Nested Types (Order with LineItem static nested class & Cursor member inner class).
+    - Problem 2: Ride Fare Engine (RideEngine polymorphic fare calculation for Auto, Cab with surge, and Bike with waiting fee).
+    - Problem 3: Round-Robin Lab Scheduler (LabScheduler simulating CPU time slices and tracking finish times via FIFO queue).
+    - Problem 4: Campus Map Pins (CampusPin demonstrating compile-time field/static resolution vs. run-time dynamic method dispatch).
+    - Problem 5: Placement Drive Shortlist (PlacementDrive stable merge sort, consecutive climb detection, binary search CUTOFF, and two-pointer PAIR search).
+  - Assignment Problems (Category A):
+    - Problem 1: Delivery Route Loop Detector (DeliveryRouteDetector Floyd's cycle detection for start stop and loop length in (1)$ extra space).
+    - Problem 2: Exam Script Batches (ExamScriptBatches reversing linked list in groups of $ nodes in-place).
+    - Problem 3: Recent Pages Cache (RecentCache custom doubly linked list + HashMap LRU cache in (1)$ time).
+    - Problem 4: Library Returns by Due Day (LibraryReturnsMergeSort linked list merge sort with stable in-place pointer relinking).
+    - Problem 5: Token Mirror Check (TokenMirrorCheck in-place palindrome check using slow/fast pointers, second-half reversal, comparison, and structure restoration in (1)$ space).
+
+**Next Session Plan:**  
+- Continue with Week 13 coursework topics.
+
+**Issues Faced:**  
+- None.
+
+- - -
+
 ## Date: 02-11-2026
 
 **Today's Work:**  
